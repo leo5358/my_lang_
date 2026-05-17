@@ -13,8 +13,8 @@ private:
   std::vector<Token>tokens;
 
   //pointers (cursor)
-  int start = 0;
-  int current = 0;
+  size_t start = 0;
+  size_t current = 0;
   
   //current line 
   int line = 1;
